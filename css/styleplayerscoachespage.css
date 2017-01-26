@@ -1,0 +1,88 @@
+.Header{
+position: absolute;
+left: 100px;
+width: 1170px;
+height: 57px;
+font-family: Calibri;
+text-align: center;
+font-size: 18px;
+}
+.NavigationList{
+position: absolute;
+left: 100px;
+width: 1170px;
+height: 27px;
+top: 66px;
+font-family: Arial;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+}
+.NavigationLinks{
+text-decoration:none;
+color:black;
+}
+.TextStyle{
+color:black;
+}
+
+.PageTitle{
+position: absolute;
+left: 150px;
+width: 1080px;
+height: 30px;
+top: 106px;
+font-family: Arial;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+color: white;
+}
+
+.Footer{
+position: absolute;
+left: 100px;
+width: 1170px;
+height: 57px;
+top: 1140px;
+font-family: Arial;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+line-height: 70px;
+}
+
+.Contains{
+position: relative;
+}
+.PlayerPic{
+display: block;
+width: 143px;
+height: 111px;
+}
+.OverImage{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 111px;;
+width: 143px;
+opacity: 0;
+transition: .5s ease;
+background-color: yellow;
+}
+.Contains:hover .OverImage{
+opacity: 1;
+}
+.PlayerStats{
+color: black;
+font-size: 10px;
+font-family: Arial;
+position: absolute;
+top: 45%;
+left: 53%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}	
+	
