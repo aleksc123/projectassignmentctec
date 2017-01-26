@@ -1,0 +1,64 @@
+.Header{
+position: absolute;
+left: 100px;
+width: 1170px;
+height: 57px;
+font-family: Calibri;
+text-align: center;
+font-size: 18px;
+}
+.NavigationList{
+position: absolute;
+left: 100px;
+width: 1170px;
+height: 27px;
+top: 66px;
+font-family: Arial;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+}
+.NavigationLinks{
+text-decoration:none;
+color:black;
+}
+.TextStyle{
+color:black;
+}
+
+.PageTitle{
+position: absolute;
+left: 150px;
+width: 1080px;
+height: 30px;
+top: 106px;
+font-family: Arial;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+color: white;
+}
+
+.Text{
+position: absolute;
+left: 360px;
+background-color: white;
+top: 140px;
+width: 700px;
+height: 180px;
+font-family: Arial;
+font-size: small;
+}
+
+.Footer{
+position: absolute;
+left: 100px;
+width: 1170px;
+height: 57px;
+top: 1140px;
+font-family: Arial;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+line-height: 70px;
+}

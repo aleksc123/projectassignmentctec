@@ -60,18 +60,31 @@ color: white;
 text-decoration:none;
 }
 
-.Text{
+.AugustSlideshow{
 position: absolute;
 left: 150px;
-width: 1080px;
-height: 30px;
-top: 546px;
+top: 246px;
 font-family: Arial;
 text-align: center;
 font-size: 16px;
 font-weight: bold;
 color: white;
 }
+
+.Text{
+position: absolute;
+left: 650px;
+width: 449px;
+height: 345px;
+top: 246px;
+font-family: Arial;
+text-align: center;
+font-size: 14px;
+color: black;
+text-align: left;
+}
+
+.ThisSlideshow{display: none;}
 
 .Footer{
 position: absolute;
@@ -106,8 +119,31 @@ line-height: 70px;
 <a class ="NavigationLinks" href ="PlayersCoaches.html">Players & Coaches</a>
 </div>  
 <div class = "PageTitle">August 2015</div>
-<a class = "NextMonth" href ="C:\Users\Aleksc1\Documents\Front-End Web Development Assignment\Assignment 2\Website\September2015.html">->September 2015</div>
-
+<a class = "NextMonth" href ="September2015.html">September 2015-></a>
+<div class = "AugustSlideshow">
+<img class ="TheSlideshow" src = "Pics\Season\Sunderland(H)4-2.jpg" style = "width: 470px;">
+<img class ="TheSlideshow" src = "Pics\Season\WestHam(A)2-1.jpg" style = "width: 470px;">
+<img class ="TheSlideshow" src = "Pics\Season\Spurs(H)1-1.jpg" style = "width: 470px;">
+<img class ="TheSlideshow" src = "Pics\Season\Bournemouth(A)1-1.jpg" style = "width: 470px;">
+</div>
+<div class = "Text" style = "background-color:white">Leicester began the season with a new manager, Claudio Ranieri. The media predicted Leicester to be relegated (5,000/1 the bookies predicted).<br><br>So the season started with a home match against Sunderland. Leicester took a 3-0 lead with goals from Jamie Vardy and two goals from Riyad Mahrez. The game ended 4-2, with a goal from Marc Albrighton.
+<br><br>Next up, West Ham away, and Leicester’s final visit to Upton Park before West Ham moved to the Olympic Stadium. Leicester won the match 2-1, with goals from Riyad Mahrez and a first Leicester goal for Japanese striker, Shinji Okazaki.<br>Leicester’s next two games were against Tottenham at home and Bournemouth away. Both games finished 1-1. By the end of August, Leicester were 3rd with 8 points, 3 points behind leaders Manchester United. 
+<br><br><b>My Opinions:</b> A good start from the team and carrying on the run from the previous season. 
+</div>
 <div class = "Footer" style = "background-color: white">Leicester City - Premier League Champions 2015-2016</div>
-
+<script>
+var ThisIndex = 0;
+carousel();
+function carousel(){
+var a;
+var b = document.getElementsByClassName("TheSlideshow");
+for(a=0; a<b.length; a++){
+b[a].style.display="none";
+}
+ThisIndex++;
+if(ThisIndex>b.length){ThisIndex = 1}
+b[ThisIndex-1].style.display = "block";
+setTimeout(carousel, 4000);
+}
+</script>
 </body>
