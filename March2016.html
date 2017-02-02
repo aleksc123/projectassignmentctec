@@ -1,67 +1,111 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>March 2016</title>
+</head>
 <style>
 
 .Header{
 position: absolute;
-left: 380px;
+left: 100px;
 width: 1170px;
 height: 57px;
 font-family: Calibri;
 text-align: center;
-font-size: 21px;
+font-size: 18px;
 }
 .NavigationList{
 position: absolute;
-left: 380px;
+left: 100px;
 width: 1170px;
 height: 27px;
 top: 66px;
-font-family: Arial;
+font-family: Consolas;
 text-align: center;
-font-size: 14px;
+font-size: 16px;
 font-weight: bold;
 }
+.NavigationLinks{
+text-decoration:none;
+color:black;
+padding-right:50px;
+padding-left:30px;
+padding-bottom: 50px;
+}
+.TextStyle{
+color:black;
+}
 
-.HomepageSlideshow{
+.PageTitle{
 position: absolute;
-left: 400px;
+left: 150px;
 width: 1080px;
-height: 427px;
+height: 30px;
 top: 106px;
 font-family: Arial;
 text-align: center;
-font-size: 14px;
+font-size: 16px;
 font-weight: bold;
+color: white;
 }
 
-.SubHeading{
+.PreviousMonth{
 position: absolute;
-left: 400px;
+left: -380px;
 width: 1080px;
 height: 30px;
-top: 546px;
+top: 106px;
 font-family: Arial;
 text-align: center;
 font-size: 16px;
 font-weight: bold;
+color: white;
+text-decoration:none;
 }
 
-.VideoEmbed{
+.NextMonth{
 position: absolute;
-left: 400px;
-width: 460px;
-height: 280px;
-top: 596px;
+left: 650px;
+width: 1080px;
+height: 30px;
+top: 106px;
 font-family: Arial;
 text-align: center;
 font-size: 16px;
 font-weight: bold;
+color: white;
+text-decoration:none;
 }
+
+.MarchSlideshow{
+position: absolute;
+left: 150px;
+top: 246px;
+font-family: Arial;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+color: white;
+}
+
+.Text{
+position: absolute;
+left: 650px;
+width: 449px;
+height: 345px;
+top: 246px;
+font-family: Arial;
+text-align: center;
+font-size: 14px;
+text-align: left;
+color: white;
+}
+
+.ThisSlideshow{display: none;}
 
 .Footer{
 position: absolute;
-left: 380px;
+left: 100px;
 width: 1170px;
 height: 57px;
 top: 1140px;
@@ -72,15 +116,51 @@ font-weight: bold;
 line-height: 70px;
 }
 
-
 </style>
 <body style="background-color:black;">
 
 <div class = "Header" style = "background-color: white"><b>Leicester City: Premier League Champions 2015-2016</b><br><b>The dream that became a reality</b></div>
-<div class = "NavigationList" style = "background-color: blue">Home  About  August 2015  September 2015  October 2015  November 2015  December 2015  January 2016  February 2016  March 2016  April 2016  May 2016 Players & Coaches</div> 
-<div class = "HomepageSlideshow" style = "background-color: white">SLIDESHOW</div>
-<div class = "SubHeading" style = "background-color: white">The story of a team, ranked 5,000/1, who shocked the world by winning the Premier League</div>
-<div class = "VideoEmbed" style = "background-color: white">VIDEO</div>
-<div class = "Footer" style = "background-color: white">Leicester City - Premier League Champions 2015-2016</div>
+<nav class = "NavigationList" style = "background-color: blue">
+<a class ="NavigationLinks" href ="Home.html">Home</a>
+<a class ="NavigationLinks" href ="About.html">About</a>
+<a class ="NavigationLinks" href ="August2015.html">Story of the Season</a>
+<a class ="NavigationLinks" href ="PlayersCoaches.html">Players & Coaches</a>
+<a class ="NavigationLinks" href ="Stats.html">Statistics</a>
+</nav> 
+<header class = "PageTitle">March 2016</header>
+<a class = "PreviousMonth" href ="February2016.html"><-February 2016</a>
+<a class = "NextMonth" href ="April2016.html">April 2016-></a>
+<div class = "MarchSlideshow">
+<img class ="TheSlideshow" src = "Pics\Season\WestBrom(H)2-2.jpg" style = "width: 470px;">
+<img class ="TheSlideshow" src = "Pics\Season\Watford(A)1-0.jpg" style = "width: 470px;">
+<img class ="TheSlideshow" src = "Pics\Season\Newcastle(H)1-0.jpg" style = "width: 470px;">
+<img class ="TheSlideshow" src = "Pics\Season\CrystalPalace(A)1-0.jpg" style = "width: 470px;">
+</div>
+<div class = "Text">
+March started with a home game against West Brom. The game finished 2-2, the goals coming from midfielder and longest serving player, Andy King and an own goal from West Brom defender Jonas Olsson. It felt like two points dropped, but the following night, Leicester rivals, Arsenal and Tottenham dropped points in their games, and it felt a relief to Leicester fans.<br><br>
+Watford away next for the premier league leaders, where a goal from Riyad Mahrez, gave Leicester a 1-0 win and three points.<br><br> 
+Leicester then played Newcastle at home, a goal from Shinji Okazaki gave Leicester another 1-0 win.<br><br> 
+Crystal Palace away and another 1-0 win, the goal coming from Riyad Mahrez. The game was remembered for the Leicester fans, who stayed 20 minutes inside the ground and fans celebrating the 1-0 victory.<br><br> 
+The end of March left Leicester top of the league, 5 points ahead of second place Tottenham and 11 ahead of third placed Arsenal.<br><br> 
 
+<b>My Opinion:</b> At this point, I felt that we just needed to keep this run going till the end. Keeping clean sheets (the 1-0 wins against Newcastle, Watford and Crystal Palace) showed that the Leicester defence were unstoppable. 
+ 
+</div>
+<div class = "Footer" style = "background-color: white">Leicester City - Premier League Champions 2015-2016</div>
+<script>
+var ThisIndex = 0;
+carousel();
+function carousel(){
+var a;
+var b = document.getElementsByClassName("TheSlideshow");
+for(a=0; a<b.length; a++){
+b[a].style.display="none";
+}
+ThisIndex++;
+if(ThisIndex>b.length){ThisIndex = 1}
+b[ThisIndex-1].style.display = "block";
+setTimeout(carousel, 4000);
+}
+</script>
 </body>
+</html>

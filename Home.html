@@ -4,7 +4,6 @@
 <title>Home</title>
 </head>
 <style>
-
 .Header{
 position: absolute;
 left: 100px;
@@ -20,14 +19,17 @@ left: 100px;
 width: 1170px;
 height: 27px;
 top: 66px;
-font-family: Arial;
+font-family: Consolas;
 text-align: center;
-font-size: 14px;
+font-size: 16px;
 font-weight: bold;
 }
 .NavigationLinks{
 text-decoration:none;
-color: black;
+color:black;
+padding-right:50px;
+padding-left:30px;
+padding-bottom: 50px;
 }
 .TextStyle{
 color:black;
@@ -99,7 +101,16 @@ width: 22px;
 font-size: small;
 }
 
-
+.SocialMedia{
+position: absolute;
+left: 100px;
+top: 110px;
+color: white;
+font-family: Arial;
+font-weight: bold;
+top: 866px;
+left: 218px;
+}
 .Footer{
 position: absolute;
 left: 100px;
@@ -112,36 +123,32 @@ font-size: 16px;
 font-weight: bold;
 line-height: 70px;
 }
-
 </style>
 <body style="background-color:black;">
-
 <div class = "Header" style = "background-color: white"><b>Leicester City: Premier League Champions 2015-2016</b><br><b>The dream that became a reality</b></div>
-<div class = "NavigationList" style = "background-color: blue">
+<nav class = "NavigationList" style = "background-color: blue">
 <a class ="NavigationLinks" href ="Home.html">Home</a>
 <a class ="NavigationLinks" href ="About.html">About</a>
-<a class ="NavigationLinks" href ="August2015.html">August 2015</a>
-<a class ="NavigationLinks" href ="September2015.html">September 2015</a>
-<a class ="NavigationLinks" href ="October2015.html">October 2015</a>
-<a class ="NavigationLinks" href ="November2015.html">November 2015</a>
-<a class ="NavigationLinks" href ="December2015.html">December 2015</a>
-<a class ="NavigationLinks" href ="January2016.html">January 2016</a>
-<a class ="NavigationLinks" href ="February2016.html">February 2016</a>
-<a class ="NavigationLinks" href ="March2016.html">March 2016</a>
-<a class ="NavigationLinks" href ="April2016.html">April 2016</a>
-<a class ="NavigationLinks" href ="May2016.html">May 2016</a>
+<a class ="NavigationLinks" href ="August2015.html">Story of the Season</a>
 <a class ="NavigationLinks" href ="PlayersCoaches.html">Players & Coaches</a>
-</div> 
+<a class ="NavigationLinks" href ="Stats.html">Statistics</a>
+</nav> 
 <div class = "HomepageSlideshow" style = "background-color: black; max-width: 1080px; max-height: 427px;">
-<img class ="MainSlideshow" src = "C:\Users\Aleksc1\Documents\Front-End Web Development Assignment\Assignment 2\Pics\SquadPhoto.jpg" style = "height: 427px; margin: auto;">
-<img class ="MainSlideshow" src = "C:\Users\Aleksc1\Documents\Front-End Web Development Assignment\Assignment 2\Pics\Champions\Champions3.jpg" style = "height: 427px; margin: auto;">
-<img class ="MainSlideshow" src = "C:\Users\Aleksc1\Documents\Front-End Web Development Assignment\Assignment 2\Pics\Season\Newcastle(A)3-0.jpg" style = "height: 427px; margin: auto">
-<img class ="MainSlideshow" src = "C:\Users\Aleksc1\Documents\Front-End Web Development Assignment\Assignment 2\Pics\Season\Southampton(H)1-0.jpg" style = "height: 427px; margin: auto">
+<img class ="MainSlideshow" src = "Pics\SquadPhoto.jpg" style = "height: 427px; margin: auto;">
+<img class ="MainSlideshow" src = "Pics\Champions\Champions3.jpg" style = "height: 427px; margin: auto;">
+<img class ="MainSlideshow" src = "Pics\Season\Newcastle(A)3-0.jpg" style = "height: 427px; margin: auto">
+<img class ="MainSlideshow" src = "Pics\Season\Southampton(H)1-0.jpg" style = "height: 427px; margin: auto">
 </div>
-<div class = "SubHeading">The story of a team, ranked 5,000/1, who shocked the world by winning the Premier League</div>
+<div class = "SubHeading">The story of a team, ranked 5,000/1, who shocked the football world by winning the Premier League</div>
 <div class = "VideoEmbed">
 <iframe width="500" height="290" src="https://www.youtube.com/embed/O4Whk96o1ZM?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<div class = "SocialMedia" align="center">
+<p id = "display">Click the button below to view social media links</p>
+<button onclick="DisplayLinks()">Social Media Links</button>
+</div>
+
 <table class = "FinalTable" style="border-collapse:collapse">
 <tr>
 <th colspan="8">2015-2016 Premier League Table</th>
@@ -371,6 +378,14 @@ if(ThisIndex>b.length){ThisIndex = 1}
 b[ThisIndex-1].style.display = "block";
 setTimeout(carousel, 4000);
 }
+
+function DisplayLinks(){
+	var socialmedia1 = 'LCFC on Facebook';
+	var displaypage = socialmedia1.link("https://en-gb.facebook.com/lcfc/");
+	
+	document.getElementById("display").innerHTML = displaypage;
+}
+
 </script>
 
 </body>

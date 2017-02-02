@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Transfers In/Out</title>
+</head>
+<style>
+
+.Header{
+position: absolute;
+left: 100px;
+width: 1170px;
+height: 57px;
+font-family: Calibri;
+text-align: center;
+font-size: 18px;
+}
+
+.NavigationList{
+position: absolute;
+left: 100px;
+width: 1170px;
+height: 27px;
+top: 66px;
+font-family: Consolas;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+}
+.NavigationLinks{
+text-decoration:none;
+color:black;
+padding-right:50px;
+padding-left:30px;
+padding-bottom: 50px;
+}
+
+.PageTitle{
+position: absolute;
+left: 150px;
+width: 1080px;
+height: 30px;
+top: 106px;
+font-family: Arial;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+color: white;
+}
+
+.SubPageTitle{
+position: absolute;
+left: 150px;
+width: 1080px;
+height: 30px;
+top: 456px;
+font-family: Arial;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+color: white;
+}
+
+.Contains{
+position: relative;
+}
+.PlayerPic{
+display: block;
+width: 143px;
+height: 111px;
+}
+.OverImage{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 111px;;
+width: 143px;
+opacity: 0;
+transition: .5s ease;
+background-color: yellow;
+}
+.Contains:hover .OverImage{
+opacity: 1;
+}
+.PlayerStats{
+color: black;
+font-size: 10px;
+font-family: Arial;
+position: absolute;
+top: 45%;
+left: 53%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+
+.TotalTransfersIn{
+position: absolute;
+font-family: Arial;
+top: 855px;
+left: 130px;
+color: white
+}
+
+.OverallTotalTransfersIn{
+position: absolute;
+font-family: Arial;
+top: 855px;
+left: 271px;
+color: white
+}
+
+.TotalTransfersOut{
+position: absolute;
+font-family: Arial;
+top: 895px;
+left: 130px;
+color: white
+}
+
+.OverallTotalTransfersOut{
+position: absolute;
+font-family: Arial;
+top: 895px;
+left: 283px;
+color: white
+}
+
+
+.Footer{
+position: absolute;
+left: 100px;
+width: 1170px;
+height: 57px;
+top: 1140px;
+font-family: Arial;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+line-height: 70px;
+}
+
+</style>
+<body style="background-color:black;">
+
+<div class = "Header" style = "background-color: white"><b>Leicester City: Premier League Champions 2015-2016</b><br><b>The dream that became a reality</b></div>
+<nav class = "NavigationList" style = "background-color: blue">
+<a class ="NavigationLinks" href ="Home.html">Home</a>
+<a class ="NavigationLinks" href ="About.html">About</a>
+<a class ="NavigationLinks" href ="August2015.html">Story of the Season</a>
+<a class ="NavigationLinks" href ="PlayersCoaches.html">Players & Coaches</a>
+<a class ="NavigationLinks" href ="Stats.html">Statistics</a>
+</nav>  
+<header class = "PageTitle">Transfers In</header>
+<header class = "SubPageTitle">Transfers Out</header>
+
+<div class = "Contains" style = "position: absolute; top:150px; left: 140px;"><img src = "Pics\Players&Staff\Fuchs.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">23.Christian Fuchs<br><br>From: Schalke<br><br>Fee:<br> Free</div></div></div>
+<div class = "Contains" style = "position: absolute; top:150px; left: 320px;"><img src = "Pics\Players&Staff\Huth.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">6.Robert Huth<br><br>From: Stoke City<br><br>Fee:<br> £3 million</div></div></div>
+<div class = "Contains" style = "position: absolute; top:150px; left: 500px;"><img src = "Pics\Players&Staff\Okazaki.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">20.Shinji Okazaki<br><br>From: Mainz<br><br>Fee:<br> £7.6 million</div></div></div>
+<div class = "Contains" style = "position: absolute; top:150px; left: 680px;"><img src = "Pics\Players&Staff\Kante.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">14.N'Golo Kante <br><br>From: Caen<br><br>Fee:<br>£5.6 million</div></div></div>
+<div class = "Contains" style = "position: absolute; top:150px; left: 860px;"><img src = "Pics\Players&Staff\Benalouane.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">29.Yohan Benalouane<br><br>From: Atalanta<br><br>Fee: Undisclosed</div></div></div>
+<div class = "Contains" style = "position: absolute; top:150px; left: 1040px;"><img src = "Pics\Players&Staff\Inler.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">33.Gokhan Inler<br><br>From: Napoli<br><br>Fee:<br>£3 million</div></div></div>
+<div class = "Contains" style = "position: absolute; top:300px; left: 140px;"><img src = "Pics\Players&Staff\Gray.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">22.Demarai Gray<br><br>From: Birmingham City<br><br>Fee:<br>£3.7 million</div></div></div>
+<div class = "Contains" style = "position: absolute; top:300px; left: 320px;"><img src = "Pics\Players&Staff\Amartey.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">13.Daniel Amartey<br><br>From: Copenhagen<br><br>Fee:<br>£5 million</div></div></div>
+<div class = "Contains" style = "position: absolute; top:300px; left: 500px;"><img src = "Pics\Players&Staff\Dyer.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">24.Nathan Dyer<br><br>From: Swansea City<br><br>Fee:<br>Loan</div></div></div>
+
+<div class = "Contains" style = "position: absolute; top:520px; left: 140px;"><img src = "Pics\Players&Staff\Wood.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">Chris Wood<br><br>To: Leeds United<br><br>Fee:<br>£3 million</div></div></div>
+<div class = "Contains" style = "position: absolute; top:520px; left: 320px;"><img src = "Pics\Players&Staff\Nugent.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">David Nugent<br><br>To: Middlesborough<br><br>Fee:<br>£4 million</div></div></div>
+<div class = "Contains" style = "position: absolute; top:520px; left: 500px;"><img src = "Pics\Players&Staff\Knockaert.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">Anthony Knockaert<br><br>Released</div></div></div>
+<div class = "Contains" style = "position: absolute; top:520px; left: 680px;"><img src = "Pics\Players&Staff\Cambiasso.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">Esteban Cambiasso<br><br>Released</div></div></div>
+<div class = "Contains" style = "position: absolute; top:520px; left: 860px;"><img src = "Pics\Players&Staff\De Laet.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">Ritchie De Laet<br><br>To:Middlesborough<br><br>Fee:<br>Loan</div></div></div>
+<div class = "Contains" style = "position: absolute; top:670px; left: 140px;"><img src = "Pics\Players&Staff\Benalouane.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">Yohan Benalouane<br><br>To:Fiorentina<br><br>Fee:<br>Loan</div></div></div>
+<div class = "Contains" style = "position: absolute; top:670px; left: 320px;"><img src = "Pics\Players&Staff\Kramaric.jpg" class = "PlayerPic"><div class ="OverImage"><div class="PlayerStats">Andrej Kramaric<br><br>To:Hoffenheim<br><br>Fee:<br>Loan</div></div></div>
+
+<p class = "TotalTransfersIn">Total Transfers In: £</p>
+<p class = "OverallTotalTransfersIn" id = "transfersintotal"></p>
+
+<p class = "TotalTransfersOut">Total Transfers Out: £</p>
+<p class = "OverallTotalTransfersOut" id = "transfersouttotal"></p>
+
+<div class = "Footer" style = "background-color: white">Leicester City - Premier League Champions 2015-2016</div>
+
+<script>
+
+var totaltransfersin = 3 + 7.6 + 5.6 + 3 + 3.7 + 5;
+document.getElementById("transfersintotal").innerHTML = totaltransfersin;
+
+var totaltransfersout = 3 + 4;
+document.getElementById("transfersouttotal").innerHTML = totaltransfersout;
+
+</script>
+</body>
+</html>
