@@ -1,4 +1,5 @@
 @media screen and (min-width: 580px){
+
 .Header{
 position: absolute;
 left: 100px;
@@ -544,13 +545,7 @@ font-weight: bold;
 position: absolute;
 top: 360px;
 }
-.Container{
-max-width: 1020px;
-margin: 0 auto;
-background: yellow;
-text-align: center;
 
-}
 
 	
 
