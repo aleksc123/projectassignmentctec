@@ -1,8 +1,8 @@
-var ThisIndex = 0;
+let ThisIndex = 0;
 carousel();
 function carousel(){
-var a;
-var b = document.getElementsByClassName("MainSlideshow");
+let a;
+let b = document.getElementsByClassName("MainSlideshow");
 for(a=0; a<b.length; a++){
 b[a].style.display="none";
 }
@@ -13,8 +13,17 @@ setTimeout(carousel, 4000);
 }
 
 function DisplayLinks(){
-	var socialmedia1 = 'LCFC on Facebook';
-	var displaypage = socialmedia1.link("https://en-gb.facebook.com/lcfc/");
+	let socialmedia1 = 'LCFC on Facebook';
+	let displaypage = socialmedia1.link("https://en-gb.facebook.com/lcfc/");
 	
 	document.getElementById("display").innerHTML = displaypage;
+}
+
+function ShowHideDiv(){
+let x = document.getElementById('PopUpDiv');
+if(x.style.display === 'none'){
+x.style.display = 'block';
+}else {
+x.style.display = 'none';
+}
 }

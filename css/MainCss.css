@@ -1,20 +1,15 @@
-@media screen and (min-width: 580px){
+/*BASIC STYLES*/
+body{
+background-color: black;
+}	
 
 .Header{
-position: absolute;
-left: 100px;
-width: 1170px;
-height: 57px;
 font-family: Calibri;
 text-align: center;
 font-size: 18px;
+background-color: white;
 }
 .NavigationList{
-position: absolute;
-left: 100px;
-width: 1170px;
-height: 27px;
-top: 65px;
 font-family: Consolas;
 text-align: center;
 font-size: 16px;
@@ -23,47 +18,16 @@ font-weight: bold;
 .NavigationLinks{
 text-decoration:none;
 color:white;
-padding-right:50px;
+padding-right:30px;
 padding-left:30px;
 padding-bottom: 50px;
 }
 .TextStyle{
 color:black;
 }
-
-.HomepageSlideshow{
-position: absolute;
-left: 150px;
-width: 1080px;
-height: 427px;
-top: 106px;
-font-family: Arial;
-text-align: center;
-font-size: 14px;
-font-weight: bold;
-}
-
 .MainSlideshow{display: none;}
 
-.SubHeadingHomePage{
-position: absolute;
-left: 150px;
-width: 1080px;
-height: 30px;
-top: 546px;
-font-family: Arial;
-text-align: center;
-font-size: 16px;
-font-weight: bold;
-color: white;
-}
-
 .VideoEmbed{
-position: absolute;
-left: 167px;
-width: 373px;
-height: 208px;
-top: 626px;
 font-family: Arial;
 text-align: center;
 font-size: 16px;
@@ -71,11 +35,6 @@ font-weight: bold;
 }
 
 .FinalTable{
-position:absolute;
-left:740px;
-top: 596px;
-width: 440px;
-background-color:white
 border-style:solid;
 border-color:white;
 color: white;
@@ -92,72 +51,35 @@ font-weight: bold;
 }
 
 .DisplayTableContent{
-border: 2px solid white;
-width: 22px;
 font-size: small;
 }
 
 .SocialMedia{
-position: absolute;
-left: 100px;
-top: 290px;
 color: white;
 font-family: Arial;
 font-weight: bold;
-top: 866px;
-left: 218px;
 }
 .Footer{
-position: absolute;
-left: 100px;
-width: 1170px;
-height: 57px;
-top: 1140px;
 font-family: Arial;
 text-align: center;
 font-size: 16px;
 font-weight: bold;
-line-height: 70px;
+background-color: white;
 }
 .TextAbout{
-position: absolute;
-left: 110px;
-top: 140px;
 font-family: Arial;
 color: white;
 font-size: small;
 }
-.NextMonth{
-position: absolute;
-left: 650px;
-width: 1080px;
-height: 30px;
-top: 106px;
-font-family: Arial;
-text-align: center;
-font-size: 16px;
-font-weight: bold;
-color: white;
-text-decoration:none;
-}
 
 .AugustSlideshow{
-position: absolute;
-left: 150px;
-top: 246px;
 font-family: Arial;
 text-align: center;
-font-size: 16px;
 font-weight: bold;
 color: white;
 }
 
 .TextAugust2015{
-position: absolute;
-left: 650px;
-width: 449px;
-height: 345px;
-top: 246px;
 font-family: Arial;
 text-align: center;
 font-size: 14px;
@@ -165,11 +87,6 @@ color: white;
 text-align: left;
 }
 .PreviousMonth{
-position: absolute;
-left: -380px;
-width: 1080px;
-height: 30px;
-top: 106px;
 font-family: Arial;
 text-align: center;
 font-size: 16px;
@@ -179,23 +96,14 @@ text-decoration:none;
 }
 
 .PageTitle{
-position: absolute;
-left: 150px;
-width: 1080px;
-height: 30px;
-top: 106px;
 font-family: Arial;
 text-align: center;
 font-size: 16px;
 font-weight: bold;
-color: white;
+color: yellow;
+align: center;
 }
 .NextMonth{
-position: absolute;
-left: 650px;
-width: 1080px;
-height: 30px;
-top: 106px;
 font-family: Arial;
 text-align: center;
 font-size: 16px;
@@ -205,21 +113,12 @@ text-decoration:none;
 }
 
 .DecemberSlideshow{
-position: absolute;
-left: 150px;
-top: 246px;
 font-family: Arial;
 text-align: center;
-font-size: 16px;
 font-weight: bold;
 color: white;
 }
 .TextDecember2015{
-position: absolute;
-left: 650px;
-width: 449px;
-height: 345px;
-top: 246px;
 font-family: Arial;
 text-align: center;
 font-size: 14px;
@@ -227,22 +126,13 @@ text-align: left;
 color: white;
 }
 .AprilSlideshow{
-position: absolute;
-left: 150px;
-top: 246px;
 font-family: Arial;
 text-align: center;
-font-size: 16px;
 font-weight: bold;
 color: white;
 }
 
 .TextApril2016{
-position: absolute;
-left: 650px;
-width: 449px;
-height: 345px;
-top: 246px;
 font-family: Arial;
 text-align: center;
 font-size: 14px;
@@ -250,22 +140,13 @@ text-align: left;
 color: white;
 }
 .MarchSlideshow{
-position: absolute;
-left: 150px;
-top: 246px;
 font-family: Arial;
 text-align: center;
-font-size: 16px;
 font-weight: bold;
 color: white;
 }
 
 .TextMarch2016{
-position: absolute;
-left: 650px;
-width: 449px;
-height: 345px;
-top: 246px;
 font-family: Arial;
 text-align: center;
 font-size: 14px;
@@ -273,22 +154,13 @@ text-align: left;
 color: white;
 }
 .MaySlideshow{
-position: absolute;
-left: 150px;
-top: 246px;
 font-family: Arial;
 text-align: center;
-font-size: 16px;
 font-weight: bold;
 color: white;
 }
 
 .TextMay2016{
-position: absolute;
-left: 650px;
-width: 449px;
-height: 845px;
-top: 246px;
 font-family: Arial;
 text-align: center;
 font-size: 14px;
@@ -297,22 +169,13 @@ color: white;
 overflow: scroll;
 }
 .FebruarySlideshow{
-position: absolute;
-left: 150px;
-top: 246px;
 font-family: Arial;
 text-align: center;
-font-size: 16px;
 font-weight: bold;
 color: white;
 }
 
 .TextFebruary2016{
-position: absolute;
-left: 650px;
-width: 449px;
-height: 345px;
-top: 246px;
 font-family: Arial;
 text-align: center;
 font-size: 14px;
@@ -321,22 +184,13 @@ color: white;
 }
 
 .JanuarySlideshow{
-position: absolute;
-left: 150px;
-top: 246px;
 font-family: Arial;
 text-align: center;
-font-size: 16px;
 font-weight: bold;
 color: white;
 }
 
 .TextJanuary2016{
-position: absolute;
-left: 650px;
-width: 449px;
-height: 345px;
-top: 246px;
 font-family: Arial;
 text-align: center;
 font-size: 14px;
@@ -344,22 +198,13 @@ text-align: left;
 color: white;
 }
 .NovemberSlideshow{
-position: absolute;
-left: 150px;
-top: 246px;
 font-family: Arial;
 text-align: center;
-font-size: 16px;
 font-weight: bold;
 color: white;
 }
 
 .TextNovember2015{
-position: absolute;
-left: 650px;
-width: 449px;
-height: 345px;
-top: 246px;
 font-family: Arial;
 text-align: center;
 font-size: 14px;
@@ -367,22 +212,13 @@ text-align: left;
 color: white;
 }
 .OctoberSlideshow{
-position: absolute;
-left: 150px;
-top: 246px;
 font-family: Arial;
 text-align: center;
-font-size: 16px;
 font-weight: bold;
 color: white;
 }
 
 .TextOctober2016{
-position: absolute;
-left: 650px;
-width: 449px;
-height: 345px;
-top: 246px;
 font-family: Arial;
 text-align: center;
 font-size: 14px;
@@ -394,9 +230,271 @@ position: relative;
 }
 .PlayerPic{
 display: block;
-width: 143px;
-height: 111px;
 }
+.OverImage{background-color: yellow;}
+
+.Contains:hover .OverImage{opacity: 1;}
+
+.PlayerStats{
+color: black;
+font-size: 10px;
+font-family: Arial;
+}
+.SeptemberSlideshow{
+font-family: Arial;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+color: white;
+}
+
+.TextSeptember2015{
+font-family: Arial;
+text-align: center;
+font-size: 14px;
+text-align: left;
+color: white;
+}
+.DisplayRow{
+background-color: blue;
+font-size: small;
+font-weight: bold;
+}
+.SubPageTitleTransfers{
+font-family: Arial;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+color: white;
+}
+.btnResults{
+background-color: green;
+font: Arial;
+font-weight: bold;
+}
+
+.btnTransfers{
+background-color: green;
+font: Arial;
+font-weight: bold;
+}
+.TheResults{
+overflow: scroll;
+}
+
+.ResultsTable{
+background-color: white;
+}
+
+.DisplayResultsTableContent{
+border-color: black;
+font-family: Arial;
+text-align: center;
+border-style: solid;
+font-size: small;
+}
+
+#PopUpDiv{
+background-color: black;
+color: white;
+font-family: Arial;
+font-size: small;
+}
+.btnShowHide{
+background-color: yellow;
+font: Arial;
+font-weight: bold;
+border: none;
+}
+/*------LARGE SCREEN SIZE---------*/
+@media screen and (min-width: 580px){
+
+.Header{
+left: 100px;
+width: 1170px;
+height: 57px;
+}
+.NavigationList{
+left: 100px;
+width: 1170px;
+height: 26px;
+top: 65px;
+}
+.HomePagePic{
+position: absolute;
+left: 320px;
+top: 106px;
+}
+.VideoEmbed{
+position: absolute;
+left: 167px;
+width: 373px;
+height: 208px;
+top: 626px;
+}
+.FinalTable{
+position:absolute;
+left:740px;
+top: 596px;
+width: 440px;
+}
+.SocialMedia{
+position: absolute;
+left: 100px;
+top: 866px;
+left: 218px;
+}
+.Footer{
+position: absolute;
+left: 100px;
+width: 1170px;
+height: 57px;
+top: 1140px;
+line-height: 70px;
+}
+.TextAbout{
+position: absolute;
+left: 110px;
+top: 140px;
+}
+.AugustSlideshow{
+position: absolute;
+left: 150px;
+top: 246px;
+}
+
+.TextAugust2015{
+position: absolute;
+left: 650px;
+width: 449px;
+height: 345px;
+top: 246px;
+}
+.PreviousMonth{
+position: absolute;
+width: 160px;
+height: 30px;
+top: 106px;
+}
+
+.PageTitle{
+position: absolute;
+left: 130px;
+width: 1080px;
+height: 30px;
+top: 106px;
+}
+.NextMonth{
+position: absolute;
+left: 1020px;
+width: 160px;
+height: 30px;
+top: 106px;
+}
+.DecemberSlideshow{
+position: absolute;
+left: 150px;
+top: 246px;
+}
+.TextDecember2015{
+position: absolute;
+left: 650px;
+width: 449px;
+height: 345px;
+top: 246px;
+}
+.AprilSlideshow{
+position: absolute;
+left: 150px;
+top: 246px;
+}
+
+.TextApril2016{
+position: absolute;
+left: 650px;
+width: 449px;
+height: 345px;
+top: 246px;
+}
+.MarchSlideshow{
+position: absolute;
+left: 150px;
+top: 246px;
+}
+
+.TextMarch2016{
+position: absolute;
+left: 650px;
+width: 449px;
+height: 345px;
+top: 246px;
+}
+.MaySlideshow{
+position: absolute;
+left: 150px;
+top: 246px;
+}
+
+.TextMay2016{
+position: absolute;
+left: 650px;
+width: 449px;
+height: 845px;
+top: 246px;
+}
+.FebruarySlideshow{
+position: absolute;
+left: 150px;
+top: 246px;
+}
+
+.TextFebruary2016{
+position: absolute;
+left: 650px;
+width: 449px;
+height: 345px;
+top: 246px;
+}
+.JanuarySlideshow{
+position: absolute;
+left: 150px;
+top: 246px;
+}
+
+.TextJanuary2016{
+position: absolute;
+left: 650px;
+width: 449px;
+height: 345px;
+top: 246px;
+}
+.NovemberSlideshow{
+position: absolute;
+left: 150px;
+top: 246px;
+}
+
+.TextNovember2015{
+position: absolute;
+left: 650px;
+width: 449px;
+height: 345px;
+top: 246px;
+}
+.OctoberSlideshow{
+position: absolute;
+left: 150px;
+top: 246px;
+}
+
+.TextOctober2016{
+position: absolute;
+left: 650px;
+width: 449px;
+height: 345px;
+top: 246px;
+}
+
 .OverImage{
 position: absolute;
 top: 0;
@@ -407,15 +505,11 @@ height: 111px;;
 width: 143px;
 opacity: 0;
 transition: .5s ease;
-background-color: yellow;
 }
 .Contains:hover .OverImage{
 opacity: 1;
 }
 .PlayerStats{
-color: black;
-font-size: 10px;
-font-family: Arial;
 position: absolute;
 top: 45%;
 left: 53%;
@@ -426,51 +520,30 @@ transform: translate(-50%, -50%);
 position: absolute;
 left: 150px;
 top: 246px;
-font-family: Arial;
-text-align: center;
-font-size: 16px;
-font-weight: bold;
-color: white;
 }
-
 .TextSeptember2015{
 position: absolute;
 left: 650px;
 width: 449px;
 height: 345px;
 top: 246px;
-font-family: Arial;
-text-align: center;
-font-size: 14px;
-text-align: left;
-color: white;
 }
-.ResultsTable{
+.TheResults{
 position:absolute;
-left:209px;
-top: 156px;
-width: 940px;
-background-color:white
-border-style:solid;
-border-color:white;
-color: white;
-font-family: Arial;
-text-align: center;
-overflow: scroll;
+left:280px;
+top: 136px;
+width:800px;
+height: 980px;
 }
 
 .DisplayRow{
-background-color: blue;
 width: 22px;
 border: 2px solid white;
-font-size: small;
-font-weight: bold;
 }
 
 .DisplayTableContent{
 border: 2px solid white;
 width: 22px;
-font-size: small;
 }
 .SubPageTitleTransfers{
 position: absolute;
@@ -478,75 +551,44 @@ left: 150px;
 width: 1080px;
 height: 30px;
 top: 456px;
-font-family: Arial;
-text-align: center;
-font-size: 16px;
-font-weight: bold;
-color: white;
+color: yellow;
 }
-.TotalTransfersIn{
-position: absolute;
-font-family: Arial;
-top: 855px;
-left: 130px;
-color: white
-}
-
-.OverallTotalTransfersIn{
-position: absolute;
-font-family: Arial;
-top: 855px;
-left: 271px;
-color: white
-}
-
-.TotalTransfersOut{
-position: absolute;
-font-family: Arial;
-top: 895px;
-left: 130px;
-color: white
-}
-
-.OverallTotalTransfersOut{
-position: absolute;
-font-family: Arial;
-top: 895px;
-left: 283px;
-color: white
-}
-
 .btnResults{
 position: absolute;
-background-color: green;
 width: 150px;
 height: 40px;
 border: none;
 color: white;
 top: 130px;
 left: 100px;
-font: Arial;
-font-weight: bold;
 }
 
 .btnTransfers{
 position: absolute;
-background-color: green;
 width: 150px;
 height: 40px;
 border: none;
 color: white;
 top: 130px;
 left: 270px;
-font: Arial;
-font-weight: bold;
 }
-.TransfersInTotal{
+.DisplayResultsTableContent{
+padding: 1px 4px;
+}
+.MarchSlideshow{
+width: 470px;
+}
+.MainSlideshow{
+width: 470px;}
+
+#PopUpDiv{
 position: absolute;
-top: 360px;
+width: 300px;
+top: 546px;
+left: 320px;
 }
-
-
-	
-
-
+.btnShowHide{
+position: absolute;
+top: 546px;
+left: 650px;
+}
