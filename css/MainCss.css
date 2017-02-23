@@ -1,8 +1,13 @@
 /*BASIC STYLES*/
+
+a:link{
+text-decoration: none;
+color: white;
+}
+
 body{
 background-color: black;
-}	
-
+}
 .Header{
 font-family: Calibri;
 text-align: center;
@@ -10,6 +15,7 @@ font-size: 18px;
 background-color: white;
 }
 .NavigationList{
+background-color: blue;
 font-family: Consolas;
 text-align: center;
 font-size: 16px;
@@ -18,10 +24,12 @@ font-weight: bold;
 .NavigationLinks{
 text-decoration:none;
 color:white;
-padding-right:30px;
-padding-left:30px;
-padding-bottom: 50px;
 }
+
+.NavigationLinks:hover{
+color: grey;
+}
+
 .TextStyle{
 color:black;
 }
@@ -44,8 +52,6 @@ text-align: center;
 
 .DisplayRow{
 background-color: blue;
-width: 22px;
-border: 2px solid white;
 font-size: small;
 font-weight: bold;
 }
@@ -95,6 +101,9 @@ color: white;
 text-decoration:none;
 }
 
+.PreviousMonth:hover{
+color: grey;
+}
 .PageTitle{
 font-family: Arial;
 text-align: center;
@@ -103,6 +112,7 @@ font-weight: bold;
 color: yellow;
 align: center;
 }
+
 .NextMonth{
 font-family: Arial;
 text-align: center;
@@ -112,6 +122,9 @@ color: white;
 text-decoration:none;
 }
 
+.NextMonth:hover{
+color: grey;
+}
 .DecemberSlideshow{
 font-family: Arial;
 text-align: center;
@@ -225,15 +238,14 @@ font-size: 14px;
 text-align: left;
 color: white;
 }
-.Contains{
-position: relative;
-}
+
 .PlayerPic{
 display: block;
 }
-.OverImage{background-color: yellow;}
 
-.Contains:hover .OverImage{opacity: 1;}
+.OverImage{
+background-color: yellow;
+}
 
 .PlayerStats{
 color: black;
@@ -294,7 +306,7 @@ border-style: solid;
 font-size: small;
 }
 
-#PopUpDiv{
+.DivPopUp{
 background-color: black;
 color: white;
 font-family: Arial;
@@ -305,26 +317,44 @@ background-color: yellow;
 font: Arial;
 font-weight: bold;
 border: none;
+font-size: medium;
 }
 /*------LARGE SCREEN SIZE---------*/
 @media screen and (min-width: 580px){
-
 .Header{
+position: absolute;
 left: 100px;
 width: 1170px;
 height: 57px;
 }
 .NavigationList{
+position: absolute;	
 left: 100px;
 width: 1170px;
 height: 26px;
 top: 65px;
 }
+.NavigationLinks{
+padding-right:30px;
+padding-left:30px;
+padding-bottom: 50px;
+}
+
+
 .HomePagePic{
 position: absolute;
 left: 320px;
 top: 106px;
 }
+
+.AboutPagePic{
+position: absolute;
+left: 320px;
+top: 586px;
+width: 742px;
+height: 417px;
+}
+
 .VideoEmbed{
 position: absolute;
 left: 167px;
@@ -375,6 +405,7 @@ position: absolute;
 width: 160px;
 height: 30px;
 top: 106px;
+left: 80px;
 }
 
 .PageTitle{
@@ -386,7 +417,7 @@ top: 106px;
 }
 .NextMonth{
 position: absolute;
-left: 1020px;
+left: 1120px;
 width: 160px;
 height: 30px;
 top: 106px;
@@ -506,7 +537,7 @@ width: 143px;
 opacity: 0;
 transition: .5s ease;
 }
-.Contains:hover .OverImage{
+.PlayerStaffInfo:hover .OverImage{
 opacity: 1;
 }
 .PlayerStats{
@@ -578,17 +609,14 @@ padding: 1px 4px;
 .MarchSlideshow{
 width: 470px;
 }
-.MainSlideshow{
-width: 470px;}
-
-#PopUpDiv{
+.DivPopUp{
 position: absolute;
 width: 300px;
 top: 546px;
-left: 320px;
+left: 380px;
 }
 .btnShowHide{
 position: absolute;
 top: 546px;
-left: 650px;
+left: 850px;
 }
