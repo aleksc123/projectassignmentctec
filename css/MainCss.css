@@ -231,7 +231,7 @@ font-weight: bold;
 color: white;
 }
 
-.TextOctober2016{
+.TextOctober2015{
 font-family: Arial;
 text-align: center;
 font-size: 14px;
@@ -277,14 +277,13 @@ font-family: Arial;
 text-align: center;
 font-size: 16px;
 font-weight: bold;
-color: white;
+color: yellow;
 }
 .btnResults{
 background-color: green;
 font: Arial;
 font-weight: bold;
 }
-
 .btnTransfers{
 background-color: green;
 font: Arial;
@@ -297,7 +296,12 @@ overflow: scroll;
 .ResultsTable{
 background-color: white;
 }
-
+.TransfersInTable{
+background-color: white;
+}
+.TransfersOutTable{
+background-color: white;
+}
 .DisplayResultsTableContent{
 border-color: black;
 font-family: Arial;
@@ -305,7 +309,13 @@ text-align: center;
 border-style: solid;
 font-size: small;
 }
-
+.DisplayTransfersTableContent{
+border-color: black;
+font-family: Arial;
+text-align: center;
+border-style: solid;
+font-size: small;
+}
 .DivPopUp{
 background-color: black;
 color: white;
@@ -319,7 +329,8 @@ font-weight: bold;
 border: none;
 font-size: medium;
 }
-/*------LARGE SCREEN SIZE---------*/
+
+/*-------------------------------------------------------LARGE SCREEN SIZE--------------------------------------------------------------------*/
 @media screen and (min-width: 580px){
 .Header{
 position: absolute;
@@ -371,7 +382,7 @@ width: 440px;
 .SocialMedia{
 position: absolute;
 left: 100px;
-top: 866px;
+top: 926px;
 left: 218px;
 }
 .Footer{
@@ -518,7 +529,7 @@ left: 150px;
 top: 246px;
 }
 
-.TextOctober2016{
+.TextOctober2015{
 position: absolute;
 left: 650px;
 width: 449px;
@@ -532,13 +543,10 @@ top: 0;
 bottom: 0;
 left: 0;
 right: 0;
-height: 111px;;
-width: 143px;
+height: 111px;
+width: auto;
 opacity: 0;
 transition: .5s ease;
-}
-.PlayerStaffInfo:hover .OverImage{
-opacity: 1;
 }
 .PlayerStats{
 position: absolute;
@@ -566,6 +574,20 @@ top: 136px;
 width:800px;
 height: 980px;
 }
+.TheTransfersIn{
+position:absolute;
+left:350px;
+top: 136px;
+width:600px;
+height: 380px;
+}
+.TheTransfersOut{
+position:absolute;
+left:280px;
+top: 136px;
+width:400px;
+height: 380px;
+}
 
 .DisplayRow{
 width: 22px;
@@ -582,7 +604,6 @@ left: 150px;
 width: 1080px;
 height: 30px;
 top: 456px;
-color: yellow;
 }
 .btnResults{
 position: absolute;
@@ -606,6 +627,14 @@ left: 270px;
 .DisplayResultsTableContent{
 padding: 1px 4px;
 }
+.DisplayTransfersTableContent{
+padding: 1px 4px;
+width: 400px;
+}
+.DisplayTransfersOutTableContent{
+padding: 1px 4px;
+}
+
 .MarchSlideshow{
 width: 470px;
 }
@@ -619,4 +648,196 @@ left: 380px;
 position: absolute;
 top: 546px;
 left: 850px;
+}
+.PlayerInfoSchmeichel{
+position: absolute; 
+top:150px; 
+left: 130px;
+}
+.PlayerInfoSchmeichel:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoDeLaet{
+position: absolute; 
+top:150px; 
+left: 310px;
+}
+.PlayerInfoDeLaet:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoDrinkwater{
+position: absolute; 
+top:150px; 
+left: 490px;
+}
+.PlayerInfoDrinkwater:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoMorgan{
+position: absolute; 
+top:150px; 
+left: 670px;
+}
+.PlayerInfoMorgan:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoHuth{
+position: absolute; 
+top:150px; 
+left: 850px;
+}
+.PlayerInfoHuth:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoVardy{
+position: absolute; 
+top:150px; 
+left: 1030px;
+}
+.PlayerInfoVardy:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoKing{
+position: absolute; 
+top:300px; 
+left: 130px;
+}
+.PlayerInfoKing:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoAlbrighton{
+position: absolute; 
+top:300px; 
+left: 310px;
+}
+.PlayerInfoAlbrighton:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoAmartey{
+position: absolute; 
+top:300px; 
+left: 490px;
+}
+.PlayerInfoAmartey:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoKante{
+position: absolute; 
+top:300px; 
+left: 670px;
+}
+.PlayerInfoKante:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoSchlupp{
+position: absolute; 
+top:300px; 
+left: 850px;
+}
+.PlayerInfoSchlupp:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoSimpson{
+position: absolute; 
+top:300px; 
+left: 1030px;
+}
+.PlayerInfoSimpson:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoKramaric{
+position: absolute; 
+top:450px; 
+left: 130px;
+}
+.PlayerInfoKramaric:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoOkazaki{
+position: absolute; 
+top:450px; 
+left: 310px;
+}
+.PlayerInfoOkazaki:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoGray{
+position: absolute; 
+top:450px; 
+left: 490px;
+}
+.PlayerInfoGray:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoUlloa{
+position: absolute; 
+top:450px; 
+left: 670px;
+}
+.PlayerInfoUlloa:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoDyer{
+position: absolute; 
+top:450px; 
+left: 850px;
+}
+.PlayerInfoDyer:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoMahrez{
+position: absolute; 
+top:450px; 
+left: 1030px;
+}
+.PlayerInfoMahrez:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoWasilewski{
+position: absolute; 
+top:600px; 
+left: 130px;
+}
+.PlayerInfoWasilewski:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoFuchs{
+position: absolute; 
+top:600px; 
+left: 310px;
+}
+.PlayerInfoFuchs:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoBenalouane{
+position: absolute; 
+top:600px; 
+left: 490px;
+}
+.PlayerInfoBenalouane:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoInler{
+position: absolute; 
+top:600px; 
+left: 670px;
+}
+.PlayerInfoInler:hover .OverImage{
+opacity: 1;
+}
+.PlayerInfoDodoo{
+position: absolute; 
+top:600px; 
+left: 850px;
+}
+.PlayerInfoDodoo:hover .OverImage{
+opacity: 1;
+}
+.StaffInfoRanieri{
+position: absolute; 
+top:600px; 
+left: 1030px;
+}
+.StaffInfoRanieri:hover .OverImage{
+opacity: 1;
 }
